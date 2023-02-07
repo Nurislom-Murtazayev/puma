@@ -1,0 +1,86 @@
+.section5
+{
+    width: 100%;
+    margin-top: 140px;
+    .container
+    {
+        display: flex;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5-img 
+    {
+        width: 488px;
+        height: 334px;
+        background-image: url('../img/puma-logo-img.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .section5-text
+    {
+        width: 652px;
+        height: 334px;
+        padding: 63px;
+        background-color: #F3F7FC;
+        border-radius: 0px 10px 10px 0px;
+        h1 
+        {
+            font-family: 'Source Serif Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 31px;
+            line-height: 140%;
+            color: #1A0A03;
+        }
+        p 
+        {
+            margin-top: 20px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 160%;
+            color: #1A0A03;
+            opacity: 0.7;
+        }
+        form 
+        {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 526px;
+            height: 51px;
+            border-radius: 5px;
+            input 
+            {
+                width: 409px;
+                height: 100%;
+                border-radius: 5px 0 0 5px;
+                border: none;
+                outline: none;
+                border: 1px solid #C2C6CA;
+                padding-left: 30px;
+                &::placeholder
+                {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                    
+                }
+            }
+            button
+            {
+                width: 117px;
+                height: 100%;
+                border-radius: 0px 5px 5px 0px ;
+                font-size: 14px;
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+.section3
+{
+    width: 100%;
+    margin-top: 140px;
+    .section3-text
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        h3 
+        {
+            font-family: 'Source Serif Pro';
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 150%;
+            letter-spacing: 0.05em;
+            color: #EE5514;
+            text-transform: uppercase;
+        }
+        h1 
+        {
+            font-family: 'Source Serif Pro';
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 130%;
+            color: #1A0A03;
+            margin-top: 10px;
+        }
+        ul 
+        {
+            margin-top: 16px;
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            li 
+            {
+                p 
+                {
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #1A0A03;
+                    opacity: 0.7;
+                }
+                a 
+                {
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 140%;
+                    color: #1A0A03;
+                    opacity: 0.7;
+                    transition: 0.3s ease;
+                    &:hover
+                    {
+                        border-bottom: 1px solid #EE5514;
+                        color: #EE5514;
+                        opacity: 1;
+                        padding-bottom: 5px;
+                        font-weight: 500;
+
+                    }
+                }
+            }
+        }
+    }
+    .section3-cards
+    {
+         display: flex;
+         margin-top: 60px;
+         gap: 30px;
+         
+         h1
+         {
+            margin-top: 30px;
+            font-family: 'Source Serif Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 150%;
+            color: #1A0A03;
+         }
+         span 
+         {
+            display: flex;
+            margin-top: 10px;
+            align-items: center;
+            gap: 10px;
+            p 
+            {
+             font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: #1A0A03;
+            opacity: 0.7;
+            }
+            h4 
+            {
+                font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 160%;
+            color: #1A0A03;
+            opacity: 0.8;
+            }
+         }
+         a
+         {
+            margin-top: 10px;
+         }
+    }
+}

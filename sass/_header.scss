@@ -1,0 +1,174 @@
+header{
+    max-width: 100%;
+    height: 650px;
+    background-image: url('../img/header-bg.png');
+    background-repeat: no-repeat;
+    nav 
+    {
+        display: flex;
+        align-items: center;
+        padding-top: 40px;
+        .menu
+        {
+            display: flex;
+            margin-left: 101px;
+            gap: 40px;
+            .active
+            {
+                color: #EE5514;
+                font-weight: 500;
+            }
+            li 
+            {
+                a 
+                {
+                    font-family: 'Poppins', sans-serif;
+                    color: #1A0A03;
+                    font-size: 16px;
+                    line-height: 160%;
+                    font-weight: 400;
+                    transition: 0.2s ease;
+                    &:hover
+                    {
+                        font-weight: 500;
+                        color: #EE5514;
+                    }
+                }
+            }
+
+        }
+        .btn-pr
+        {
+            margin-left: 477px;
+        }
+
+    }
+    .banner
+    {
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .hero-text
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h1 
+            {
+                font-family: 'Source Serif Pro';
+                font-weight: 600;
+                font-size: 61px;
+                line-height: 120%;
+                color: #1A0A03;
+                span 
+                {
+                    color: #EE5514;
+                }
+            }
+            p 
+            {
+                width: 326px;
+                font-family: 'Poppins', sans-serif;
+                color: #1A0A03;
+                font-size: 16px;
+                line-height: 160%;
+                font-weight: 400;
+
+            }
+            
+        }
+    }
+    .header-shop
+    {
+        width: 792px;
+        height: 125px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 14px rgba(26, 10, 3, 0.05);
+        border-radius: 5px;
+        ul 
+        {
+            padding: 35px 55px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            li 
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                position: relative;
+                &:nth-child(2)::before
+                    {
+                        content: "";
+                        display: block;
+                        width: 42px;
+                        height: 1px;
+                        border: 1px solid #EE5514;
+                        transform: rotate(90deg);
+                        position: absolute;
+                        left: -52px;
+                        top: 35px;
+                    }
+                    &:nth-child(3)::before
+                    {
+                        content: "";
+                        display: block;
+                        width: 42px;
+                        height: 1px;
+                        border: 1px solid #EE5514;
+                        transform: rotate(90deg);
+                        position: absolute;
+                        left: -52px;
+                        top: 35px;
+                    }
+                    &:nth-child(4)::before
+                    {
+                        content: "";
+                        display: block;
+                        width: 42px;
+                        height: 1px;
+                        border: 1px solid #EE5514;
+                        transform: rotate(90deg);
+                        position: absolute;
+                        left: -52px;
+                        top: 35px;
+                    }
+                h3 
+                {
+                    font-family: 'Poppins', sans-serif;
+                    color: #1A0A03;
+                    font-size: 16px;
+                    line-height: 160%;
+                    font-weight: 400;
+                    opacity: 0.7;
+                }
+                a 
+                {
+                    font-family: 'Poppins', sans-serif;
+                    color: #1A0A03;
+                    font-size: 18px;
+                    line-height: 160%;
+                    font-weight: 500;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    
+                }
+                .btn-pr
+                {
+                    width: 128px;
+                    height: 56px;
+                    color: #FFFFFF;
+                    &:hover
+                    {
+                        color: #EE5514;
+                    }
+                }
+            }
+            
+        }
+    }
+}
